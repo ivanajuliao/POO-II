@@ -10,7 +10,7 @@
 </p><br>
 
 ### 3. KANBAN
-As etapas de desenvolvimento do projeto podem ser acompanhadas através do link: [Quadro Trello](https://trello.com/)
+As etapas de desenvolvimento do projeto podem ser acompanhadas através do link: [Quadro Trello](https://trello.com/b/RkIi11eM)
 
 ### 4. MAPA MENTAL
 <p align="center"><img src="https://"></p><br>
