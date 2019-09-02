@@ -33,6 +33,7 @@ public class Principal {
         
         GeradorDeNumerosUnicos numeroRecuperado = (GeradorDeNumerosUnicos) persistencia.recuperarObjeto(GeradorDeNumerosUnicos.class);
         numeroRecuperado.listarNumerosGerados(10);
+
     }
     
 }
