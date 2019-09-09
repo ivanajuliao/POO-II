@@ -1,10 +1,8 @@
 package leitura;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.LinkedList;
 
 public class LeCsv {
@@ -20,11 +18,12 @@ public class LeCsv {
         int c;
         
         while ((c = in.read()) != -1) {
-            c = in.read();
             dado += (char)c;    
-  
         }
-        System.out.println(dado);
+        
+        System.out.println(dado.split(";"));
+ 
+        
         in.close();
 
         //complete o codigo para ler o csv e criar as instancias de cliente.
