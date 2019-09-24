@@ -1,17 +1,67 @@
 <html>
-  <head>
-       <meta charset="UTF-8">
-  </head>
-  <body>
-    <form action="RecebeDados" method="POST">
-      Modelo: <input type="text" name="modelo" /><br />
-      Placa: <input type="text" name="palca" /><br />
-      Renavam: <input type="text" name="renavam" /><br />            
-      Ano: <input type="number" name="ano" /><br />            
-      Kilometragem: <input type="number" name="kilometragem" /><br />            
-      Acessórios: <input type="text" name="acessorios" /><br />            
-      Valor: <input type="number" name="valor" /><br />            
-      <input type="submit" value="Enviar" />
-    </form>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="card mx-auto my-5" style="width: 50rem;" >
+            <div class="card-body">
+                <h5 class="card-title">Cadastrar Carro</h5>
+                <div class="w-100 p-3">
+                    <form action="RecebeDados" method="POST">
+                        <div class="form-group row">
+                            <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Modelo</label>
+                            <input type="text" name="modelo" class="form-control form-control-sm" id="modelo" aria-describedby="modelo" placeholder="Modelo">
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col">
+                                <label for="colFormLabelSm" class=" col-form-label col-form-label-sm">Palca</label>
+                                <input type="text" name="placa" class="form-control form-control-sm" id="palca" aria-describedby="palca" placeholder="Palca">
+                            </div>
+                            <div class="col">
+                                <label for="colFormLabelSm" class="col-form-label col-form-label-sm">Renavam</label>
+                                <input type="text" name="renavam" class="form-control form-control-sm" id="renavam" aria-describedby="renavam" placeholder="Renavam">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <label for="colFormLabelSm" class="col-form-label col-form-label-sm">Ano</label>
+                                <input type="number" name="ano" class="form-control form-control-sm" id="ano" aria-describedby="ano" placeholder="Ano">
+                            </div>
+                            <div class="col">
+                                <label for="colFormLabelSm" class="col-form-label col-form-label-sm">Kilometragem</label>
+                                <input type="number" name="kilometragem" class="form-control form-control-sm" id="kilometragem" aria-describedby="kilometragem" placeholder="Kilometragem">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Acessórios</label>
+                            <input type="text" name="acessorios" class="form-control form-control-sm" id="acessorios" aria-describedby="acessorios" placeholder="Acessórios">
+                        </div>
+                        <div class="form-group row">
+                            <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Valor</label>
+                            <input type="number" name="valor" class="form-control form-control-sm" id="valor" aria-describedby="valor" placeholder="Valor">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--      <form action="RecebeDados" method="POST">
+                Modelo: <input type="text" name="modelo" /><br />
+                Placa: <input type="text" name="palca" /><br />
+                Renavam: <input type="text" name="renavam" /><br />            
+                Ano: <input type="number" name="ano" /><br />            
+                Kilometragem: <input type="number" name="kilometragem" /><br />            
+                Acessórios: <input type="text" name="acessorios" /><br />            
+                Valor: <input type="number" name="valor" /><br />            
+                <input type="submit" value="Enviar" />
+              </form>-->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
 </html>
