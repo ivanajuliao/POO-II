@@ -8,6 +8,7 @@ public class Cliente
      private String nome;
      private String telefone;
      private String email;
+     private String data_nasc;
      private double totalCompras;
 
     public String getId() {
@@ -46,6 +47,14 @@ public class Cliente
         return totalCompras;
     }
 
+     public String getData_nasc() {
+        return data_nasc;
+    }
+
+    public void setData_nasc(String data_nasc) {
+        this.data_nasc = data_nasc;
+    }
+    
     public void setTotalCompras(double totalCompras) {
         this.totalCompras = totalCompras;
     }

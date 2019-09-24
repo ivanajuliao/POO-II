@@ -13,8 +13,9 @@ public class TotalCompras {
         double somaTotal=0;
         while(listaClientes.hasNext()){
             Cliente cliente = (Cliente) listaClientes.next();
-            somaTotal += cliente.getTotalCompras();            
+            somaTotal += cliente.getTotalCompras();
         }
+        
         return somaTotal;        
     }
 }
