@@ -32,9 +32,10 @@ public class ConexaoJDBC {
                 Class.forName(driverName);
                
                 // Create a connection to the database   
-                String url = "jdbc:postgresql://localhost:5432/sportsEvents"; // a JDBC url  
-                String username = "admin";  
-                String password = "admin";  
+//                String url = "jdbc:postgresql://localhost:5432/sportsEvents"; // a JDBC url 
+                String url = "jdbc:postgres://motty.db.elephantsql.com:5432/hmrzilbh"; // a JDBC url
+                String username = "hmrzilbh";  
+                String password = "6P1apMiW1nZd13RQCZh-nfmZOFUpcsGZ";  
                 conexao = DriverManager.getConnection(url, username, password); 
                 System.out.println("Conexão obtida com sucesso!");
             } catch (SQLException e) {  
