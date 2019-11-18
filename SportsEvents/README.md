@@ -16,7 +16,7 @@ As etapas de desenvolvimento do projeto podem ser acompanhadas através do link:
 <p align="center"><img src="https://"></p><br>
 
 ### 5. CANVAS(PMC)
-<p align="center"><img src="https://github.com/ivanajuliao/POO-II/blob/master/SportsEvent/imagens/Canvas%20(PMC).png"></p><br>
+<p align="center"><img src="https://github.com/ivanajuliao/POO-II/blob/master/SportsEvents/imagens/Canvas%20(PMC).png"></p><br>
 
 ### 6. PROTÓTIPO DO SISTEMA
 O protótipo do sistema por ser visto através do link a seguir: [Protótipo do Sistema](https://)
